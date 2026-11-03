@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "saveattic-db"
-database_id = "REPLACE_AFTER_wrangler_d1_create"
+database_id = "38a62e57-4364-4611-9cc2-93b7862f0136"
 
 [[r2_buckets]]
 binding = "BUCKET"
