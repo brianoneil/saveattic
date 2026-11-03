@@ -1,0 +1,20 @@
+name = "saveattic-api"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "saveattic-db"
+database_id = "REPLACE_AFTER_wrangler_d1_create"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "saveattic-media"
+
+[vars]
+CORS_ORIGIN = "http://localhost:5173"
+
+[env.production]
+[env.production.vars]
+CORS_ORIGIN = "https://saveattic.com"

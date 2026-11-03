@@ -1,0 +1,10 @@
+{
+  "name": "saveattic",
+  "private": true,
+  "workspaces": ["api", "web"],
+  "scripts": {
+    "dev:api": "cd api && npm run dev",
+    "dev:web": "cd web && npm run dev",
+    "build:web": "cd web && npm run build"
+  }
+}
